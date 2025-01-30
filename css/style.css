@@ -223,14 +223,144 @@ ul, ol{
 }
 .about_cards:hover::before {
     opacity: 0.2;
+}   
+/* =============About Part End=============== */
+/* ===========Collection Part start=============== */
+#collection .collection_text_part{
+    padding: 66px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+
+}
+#collection h3{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "kalpurush";
+    color: #36A37D;
+}
+#collection p {
+    font-family: "kalpurush";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #626D7D;
+    padding: 0 214px;  
+    text-align: center;
+}
+.collection_body{
+    background: url(../imeges/bg-fl.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.collection_body img{
+    /* width: 100%; */
+    border-radius: 15px;
+    margin-top: 86px;
+    margin-bottom: 192px;
+
+}
+#collection .collection_body p{
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px ;
+    border-radius: 10px 20px;
+    font-family: "kalpurush";
+    width: 100%;
+}
+/* ===========Collection Part End=============== */
+/* ==========Subject part start=============== */
+#subject{
+    background: url(../imeges/sub-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* margin-top: 71px;
+    margin-bottom: 72px; */
+    padding-top: 71px;
+    padding-bottom: 72px;
+}
+#subject .subject_text_part h3{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "kalpurush";
+    color: #36A37D;
+}
+#subject .subject_text_part p{
+    font-family: "kalpurush";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #626D7D;
+    padding: 0 66px; 
+    text-align: center;
+}
+.subject{
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+.sub_cards{
+    background: url(../imeges/services-inverse-bg-right\ 2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 418px;
+    width: 370px;
+    border-radius: 12px;
+}
+.sub_cards2{
+    background: url(../imeges/services-inverse-bg-center\ 1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 418px;
+    width: 370px;
+    border-radius: 12px;
+}
+.sub_cards3{
+    background: url(../imeges/services-inverse-bg-right\ 1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 418px;
+    width: 370px;
+    border-radius: 12px;
+}
+#subject h3{
+    font-family: "kalpurush";
+    font-size: 25px;
+    font-weight: 400;
+    color: #36A37D;
+}
+#subject p{
+    font-family: "kalpurush";
+    font-size: 16px;
+    font-weight: 400;
+    color: #626D7D;
+}
+#subject button{
+    background-color: #36A37D;
+    box-sizing: border-box;
+    border: none;
+    color: white;
+    font-family: "kalpurush";
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 15px 23px;
+    gap: 5px;
+    transition: all linear 0.5s;
 }
 
-
-/* .about_cards::after:hover{
-    background: linear-gradient(rgba(0, 0, 0, 0.781), black),
-     url(../imeges/cards-bg01.svg) !important
-} */
-
-    
-/* =============About Part End=============== */
-/* ===========Navbar start=============== */
+/* ==========Subject part End=============== */
