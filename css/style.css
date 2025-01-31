@@ -8,6 +8,9 @@ a{
 /* ===========Navbar start=============== */
 ul, ol{
     font-family: "kalpurush";
+    list-style: none;
+    padding: 0; 
+    margin: 0;
 }
 .navbar{
     position: absolute;
@@ -413,5 +416,43 @@ ul, ol{
     font-weight: bold;
     font-family: "Inter", serif;
 }
-
 /* ==========Subject part End=============== */
+/* ============Footer part start============= */
+#footer{
+    background-color: #36A37D;
+
+}
+#footer .footer_content{
+    margin-top: 74px;
+    margin-bottom: 74px;
+    column-gap: 40px;
+
+}
+#footer .footer_logo{
+    height: 47px;
+    width: 172px;
+    margin-bottom: 66px;
+}
+#footer .footer_content h3{
+    font-family: "kalpurush";
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+#footer .footer_content p{
+    font-family: "kalpurush";
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 17px;
+}
+#footer .footer_content ul li{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 14px;
+}
+.footer_right_part{
+    margin-top: 110px;
+}
+/* ============Footer part end============= */
