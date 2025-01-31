@@ -345,7 +345,7 @@ ul, ol{
 }
 #subject p{
     font-family: "kalpurush";
-    font-size: 16px;
+    font-size: 16px; 
     font-weight: 400;
     color: #626D7D;
 }
@@ -361,6 +361,57 @@ ul, ol{
     padding: 15px 23px;
     gap: 5px;
     transition: all linear 0.5s;
+}
+#download{
+    background: url(../imeges/Download\ Alhadish\ mobile\ app-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#download .download-text h3{
+    font-family: "kalpurush";
+    font-size: 40px;
+    font-weight: 400;
+    color: #36A37D;
+    padding: 0 225px;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 94px;
+    
+}
+#download .download-text .banner_p{
+    padding: 0 58px;
+    margin-top: 10px;
+    margin-bottom: 76px;
+    color: #626D7D;
+}
+#download .download_btn{
+    margin-top: 76px;
+    margin-bottom: 104px;
+    column-gap: 30px;
+}
+
+#download .download_btn button{
+    background-color: #36A37D;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 15px 33px;
+    gap: 15px;
+    transition: all linear 0.5s;
+}
+.download_btn_text{
+    text-align: left;
+}
+#download .download_btn span{
+    font-family: "Inter", serif;
+}
+.btn_p {
+    font-weight: bold;
+    font-family: "Inter", serif;
 }
 
 /* ==========Subject part End=============== */
