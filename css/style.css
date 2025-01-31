@@ -420,7 +420,12 @@ ul, ol{
 /* ============Footer part start============= */
 #footer{
     background-color: #36A37D;
-
+}
+#footer .footer_content{
+    background: linear-gradient(rgba(0, 0, 0, 0), #36A37D) ,url(../imeges/footer-bg.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 #footer .footer_content{
     margin-top: 74px;
